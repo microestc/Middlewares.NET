@@ -1,3 +1,5 @@
-namespace Middleware;
+namespace Middleware
+{
+    public interface IContext { }
+}
 
-public interface IContext { }
