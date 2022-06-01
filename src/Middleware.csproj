@@ -2,7 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.0.0<Version/>
+    <AssemblyName>Middleware.NET</AssemblyName>
+    <RootNamespace>Middleware.NET</RootNamespace>
+    <Version>1.0.0</Version>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Middleware.NET.snk</AssemblyOriginatorKeyFile>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
+  
+  <PropertyGroup>
+    <PackageId>Middleware.NET</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>microestc@outlook.com</Authors>
+    <Company>Microestc</Company>
+    <Description>.NET Middleware .NET Standard2.0(TFM)支持.NET Framework &gt;=4.6.1 以及 .NET Core 2.0 至 .NET 6</Description>
+    <Copyright>(c) 2022 Microestc</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
 
 </Project>
