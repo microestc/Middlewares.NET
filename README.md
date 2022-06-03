@@ -1,7 +1,26 @@
 # SETUP
 
-Example
+Middlewares.NET 中间件管道
+
+https://www.cnblogs.com/microestc/p/16341055.html
+
+Middlewares.NET 是一个开源 DOTNET 中间件管道，基于 .NET Standard 2.0 开发。
+
+开源地址： https://github.com/microestc/Middlewares.NET
+
+Nuget地址：https://www.nuget.org/packages/Middlewares.NET/
+
+安装
+
 ```
+dotnet add package Middlewares.NET 
+```
+
+主要的作用是以一种中间件管道的形式执行任务。
+
+Example
+
+```csharp
 using Middlewares.NET;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
