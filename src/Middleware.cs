@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace Middleware
+namespace Middlewares.NET
 {
     public interface IMiddleware
     {

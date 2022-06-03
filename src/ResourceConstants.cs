@@ -1,6 +1,6 @@
 using System;
 
-namespace Middleware
+namespace Middlewares.NET
 {
     public static class ResourceConstants
     {

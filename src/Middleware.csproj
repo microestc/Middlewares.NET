@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Middleware.NET</AssemblyName>
-    <RootNamespace>Middleware.NET</RootNamespace>
+    <AssemblyName>Middlewares.NET</AssemblyName>
+    <RootNamespace>Middlewares.NET</RootNamespace>
     <Version>1.0.0</Version>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Middleware.NET.snk</AssemblyOriginatorKeyFile>
@@ -11,14 +11,20 @@
   </PropertyGroup>
   
   <PropertyGroup>
-    <PackageId>Middleware.NET</PackageId>
+    <PackageId>Middlewares.NET</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>microestc@outlook.com</Authors>
-    <Company>Microestc</Company>
-    <Description>.NET Middleware .NET Standard2.0(TFM)支持.NET Framework &gt;=4.6.1 以及 .NET Core 2.0 至 .NET 6</Description>
-    <Copyright>(c) 2022 Microestc</Copyright>
+    <Company>Microestc Co.</Company>
+    <Description>Middleware .NET Standard2.0(TFM)支持.NET Framework &gt;=4.6.1 以及 .NET Core 2.0 至 .NET 6</Description>
+    <Copyright>2022 Microestc (c)</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Middlewares.NET</PackageReleaseNotes>
+    <Product>Middlewares.NET</Product>
+    <RepositoryUrl>https://github.com/microestc/Middlewares.NET</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/microestc/Middlewares.NET</PackageProjectUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RequireLicenseAcceptance>true</RequireLicenseAcceptance>
   </PropertyGroup>
-
 
 </Project>

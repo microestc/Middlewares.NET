@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Middleware
+namespace Middlewares.NET
 {
 
     public delegate Task RequestDelegate(IContext context);
